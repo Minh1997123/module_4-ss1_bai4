@@ -5,7 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class Order {
+public class OrderEntity {
     @Id
     private String orderId;
 }
